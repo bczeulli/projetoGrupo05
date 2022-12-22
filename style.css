@@ -59,7 +59,9 @@ header{
     position: fixed;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+}
+.footer-logo{
+
 }
 .text-footer{
     align-items: center;
