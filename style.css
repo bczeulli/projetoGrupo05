@@ -1,0 +1,18 @@
+.footer{
+    color: white;
+    background-color: #0D0D0D;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 20%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-footer{
+    align-items: center;
+}
+.instagram{
+    margin-left: 5px;
+}
