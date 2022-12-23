@@ -51,6 +51,33 @@ header{
     height: 400px;
 } 
 
+.card_background {
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+}
+
+.card_background-banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/banner_feminino-a.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+.parallax {
+    position: relative;
+    background-image: url("../img/banner_feminino-d.png");
+    min-height: 720px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+*/
+
 .navbar {
     display: flex;
     align-items: center;
