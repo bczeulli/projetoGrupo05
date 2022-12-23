@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-color: #D9D3C7;
     width: 100%;
 }
 
+
 header{
     width: 100%;
 }
+
 
 .banner {
     width: 100%;
