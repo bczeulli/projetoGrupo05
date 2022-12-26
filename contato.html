@@ -6,30 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/scriptIndex.js"></script>
+    <link rel="stylesheet" href="./styles/contato.css">
+    <script src="./scripts/scriptContato.js" defer></script>
     
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="logo">
-                <img width ="15%" height="10%" src="./img/five (2).svg" alt="">
+                <img width ="15%" height="10%" src="./img/logo.png" alt="">
             </div>
             <nav>
                 <ul id="nav_menu">
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./portifolio.html">Portifólio</a></li>
+                    <li><a href="./portfolio.html">Portifólio</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                     <li><a href="./about.html">Sobre Nós</a></li>
                 </ul>
             </nav>    
-        </div>
-        <div class="banner">
-            <img width="100%" src="./img/banner.png" alt="">
+        <!-- </div>
+        <div class="parallax"> -->
         </div>
     </header>
     <main>
-        
+        <div class="login-box">
+            <h2>Contato</h2>
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                <input type=hidden name="oid" value="00DDn000006AR8e">
+                <input type=hidden id="lead_source" name="lead_source" value="Web">
+                <input type=hidden name="retURL" value="http://127.0.0.1:5500/contato.html">
+                <small id="primeiroNomeValidation"></small>
+              <div class="user-box">
+                <input type="text" id="first_name" maxlength="40" name="first_name" size="20" required="">
+                <label for="first_name" id="labelNome">Nome</label>
+              </div>
+              <small id="sobrenomeValidation"></small>
+              <div class="user-box">
+                <input type="text" id="last_name" maxlength="80" name="last_name" size="20" required="">
+                <label for="last_name" id="labelSobrenome">Sobrenome</label>
+              </div>
+              <small id="emailValidation"></small>
+              <div class="user-box">
+                <input type="text" id="email" maxlength="80" name="email" size="20" required="">
+                <label for="email" id="labelEmail">E-mail</label>
+              </div>
+              <small id="cpfValidation"></small>
+              <div class="user-box">
+                <input type="text" id="00NDn00000GaHOj" maxlength="11" name="00NDn00000GaHOj" size="20" required="">
+                <label for="00NDn00000GaHOj" id="labelCpf">CPF</label>
+              </div>
+              <small id="celularValidation"></small>
+              <div class="user-box">
+                <input type="text" id="mobile" maxlength="15" name="mobile" size="20" required="">
+                <label for="mobile" id="labelCelular">Celular</label>
+              </div>
+              <small id="mensagemValidation"></small>
+              <div class="user-box">
+                
+                <textarea name="description" rows="3" required="" id="description"></textarea>
+                <label for="description" id="labelMensagem">Descreva sua Tattoo</label>
+                
+              </div>
+              
+              <button type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Enviar
+                </button>
+              
+            </form>
+        </div>
     </main>
     <footer>
         <section class="footer">
