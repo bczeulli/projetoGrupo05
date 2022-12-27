@@ -112,7 +112,8 @@ header{
 
 .text-footer{
     align-items: center;
-    padding-top: 3em;
+    padding-top: 2em;
+    text-align: center;
 }
 .icons-footer{
     padding-top: 3em;
