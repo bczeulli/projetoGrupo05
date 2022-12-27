@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <script src="./scripts/scriptIndex.js"></script>
     
 </head>
@@ -18,19 +19,57 @@
             <nav>
                 <ul id="nav_menu">
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portifólio</a></li>
+                    <li><a href="./portfolio.html">Portfólio</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                     <li><a href="./about.html">Sobre Nós</a></li>
                 </ul>
             </nav>    
         </div>
-        <div class="banner">
-            <img width="100%" src="./img/banner.png" alt="">
-        </div>
+        <div class="parallax"></div>
     </header>
     <main>
-        
+        <h1>NOSSOS PROFISSIONAIS</h1>
+        <section class="profissional"> 
+            <div class="profissional-foto">
+                <img src="./img/profissional1.png" alt="">
+                <h2>Carla Machado</h2>
+            </div>
+            <div class="profissional-descricao">
+                <p>35 ANOS, TATUADORA DESDE OS 18 ANOS, graduada EM DESIGN pela UFMG E ESPECIALIZADA EM cobertura de cicatrizes.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi natus nemo assumenda cum dignissimos rerum corrupti aliquam blanditiis atque aut repudiandae doloremque consequuntur mollitia molestiae ad suscipit numquam autem! 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ullam nam asperiores quod optio molestias dolorem officia labore tempora illum possimus placeat natus aut eum consequuntur, nemo quo magnam impedit!</p>
+            </div>
+        </section>
+        <section class="profissional"> 
+            <div class="profissional-foto" class="element">
+                <img width="226px" height="223px" src="./img/profissional2.png" alt="">
+                <h2>Marcela Feitosa</h2>
+            </div>
+            <div class="profissional-descricao">
+                <p>27 ANOS, graduada EM DESIGN industrial pela faculdade do porto - portugal, experiência em modelagem feminina. 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure impedit enim repellat soluta temporibus itaque necessitatibus incidunt saepe facere commodi veritatis corrupti laudantium, id aliquid et ab? Rem, eius aut.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quis saepe, aperiam earum animi eaque blanditiis architecto obcaecati veritatis praesentium dolorum, voluptate incidunt molestiae quasi! Impedit rerum facilis laborum! Mollitia.</p>
+            </div>
+        </section>
+        <section class="carousel">
+            <h3 >NOSSOS CLIENTES</h3>
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous Image"></button>
+                <button class="arrow-right control" aria-label="Next image"></button>
+            
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img class="item current-item" src="./img/portfolio/1.jpg" alt="">
+                        <img class="item current-item" src="./img/portfolio/1.jpg" alt="">
+                        <img class="item current-item"  src="./img/portfolio/1.jpg" alt="">
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    
+    <!--
     <footer>
         <section class="footer">
             <div class="footter-logo">
@@ -49,6 +88,6 @@
             <p>Copyright © 2022 All rights reserved</p>
         </section>
     </footer>
-    
+    -->
 </body>
 </html>

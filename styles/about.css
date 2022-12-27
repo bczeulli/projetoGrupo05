@@ -1,0 +1,65 @@
+
+main {
+    margin: 4rem 6rem;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #363F40;
+}
+
+h2 {
+    padding-top: 0.6rem;
+    padding-left: 0.8rem;
+    color: #363F40;   
+}
+
+.profissional {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.profissional-foto { 
+    margin-left: 8rem; 
+}
+
+.profissional-descricao {
+    margin-left: 2rem;
+    margin-right: 6rem;
+}
+
+.profissional-descricao p {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color: #363F40;
+    text-align: justify;
+}
+
+.carousel {
+    margin-top: 4rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #363F40;
+}
+
+
+.container {
+    position: relative;
+}
+.gallery img {
+    width: 250px;
+    height: 250px;
+    transform: skew(-20deg);
+}
+
+

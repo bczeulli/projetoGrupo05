@@ -21,23 +21,36 @@ nav ul {
   
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 #nav_menu {
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center; 
+    margin-right: 2rem;
 }
-  
+
 a {
     text-decoration: none;
-    color: #363F40;
+    color: #72736E;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     transition: .5s;
     border: none;
     background-color: transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+a:hover {
+    color: #0D0D0D;
+    border-radius: 5px;
+    background: #D9D3C7;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
 }
 
 
@@ -61,7 +74,6 @@ header{
     background-color: aliceblue;
 }
 
-
 .parallax {
     position: relative;
     background-image: url("../img/banner_feminino-d.png");
@@ -76,8 +88,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    background-color: #0D0D0D;
+    padding: 0.6rem;
+    background-color: black;
 }
 
 .footer{
@@ -113,6 +125,10 @@ header{
 .icons-footer p{
     margin-bottom: 0.5em;
 }
+
+/*  Responsividade max-width   820-1180 iPad Air
+                              412 - 915 Samsung Galaxy S20 Ultra 412-915
+*/
 
 .footer-bottom{
     margin-left: auto;
