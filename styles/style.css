@@ -31,7 +31,7 @@ nav ul li {
     margin-right: 2rem;
 }
 
-a {
+#nav_menu a {
     text-decoration: none;
     color: #72736E;
     font-weight: bold;
@@ -43,14 +43,14 @@ a {
     padding-right: 8px;
 }
 
-a:hover {
-    color: #0D0D0D;
+#nav_menu a:hover {
+    color: rgb(234, 233, 233);
     border-radius: 5px;
-    background: #D9D3C7;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 100px #03e9f4;
+    background: #72736E;
+    box-shadow: 0 0 5px #72736E,
+                0 0 25px #72736E,
+                0 0 50px #72736E,
+                0 0 100px #72736E;
 }
 
 

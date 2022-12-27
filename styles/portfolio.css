@@ -1,8 +1,4 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /*
 .portfolio_menu {
     text-decoration: underline;
@@ -25,7 +21,7 @@ main {
     margin: 4rem 12rem 4rem 12rem;
 }
 
-section {
+.cards {
  margin-bottom: 4rem;
 }
 
