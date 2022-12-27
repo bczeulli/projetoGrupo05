@@ -35,7 +35,11 @@ a {
     color: #363F40;
     font-weight: bold;
     font-size: 20px;
+    transition: .5s;
+    border: none;
+    background-color: transparent;
 }
+
 
 header{
     width: 100%;
@@ -76,7 +80,6 @@ header{
     background-color: #0D0D0D;
 }
 
-
 .footer{
     color: white;
     background-color: #0D0D0D;
@@ -84,20 +87,34 @@ header{
     bottom: 0;
     left: 0;
     height: 20%;
+}
+.footer-div{
     display: flex;
     justify-content: center;
+    
 }
 
 .footer-logo{
-
+    padding-top: 3em;
 }
 
 .text-footer{
     align-items: center;
+    padding-top: 3em;
+}
+.icons-footer{
+    padding-top: 3em;
 }
 
-.instagram{
-    margin-left: 5px;
+.icons-footer a{
+    margin-left: 1.2em;
+    padding-top: 1em;
+}
+.icons-footer p{
+    margin-bottom: 0.5em;
 }
 
-
+.footer-bottom{
+    margin-left: auto;
+    margin-right: auto;
+}
