@@ -137,8 +137,8 @@ mensagem.addEventListener("blur", () => {
     }
 })
 
-buton.addEventListener("click", () =>{
+/* buton.addEventListener("click", () =>{
     setTimeout(() => {
         location.reload();
       }, 3000)
-})
+}) */
