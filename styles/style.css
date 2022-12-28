@@ -121,6 +121,7 @@ header{
 }
 .icons-footer{
     padding-top: 3em;
+    
 }
 
 .icons-footer a{
@@ -130,6 +131,7 @@ header{
 .icons-footer p{
     margin-bottom: 0.5em;
 }
+
 
 /*  Responsividade max-width   820-1180 iPad Air
                               412 - 915 Samsung Galaxy S20 Ultra 412-915
@@ -144,25 +146,92 @@ header{
     align-items: center;
     width: 50%;
     margin-bottom: 3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5rem;
+    color: #363F40;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    padding-top: 1rem;
     
 
 }
 .section1 h1{
-    margin-top: 10rem;
+   
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
-    font-size: xx-large;
+    font-size: 3rem;
 }
+
 .section1 h2{
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 18rem;
+
 }
+
+.section1 p{
+    text-align: justify;
+    font-size: 1.8rem;
+    padding: 2rem;
+ }
+
+
 .frase{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2.5rem;
     font-style: italic;
     align-items: center;
     text-align: center;
     margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+#img1{
+    width: 30%;
+    height: 30%;
+    /* object-fit: cover; */
+}
+#img2{
+    width: 30%;
+    height: 30%;
+}
+#img3{
+    width: 38%;
+    
+}
+/*Responsividade para iPad Air*/
+@media (min-width: 820px) and (max-width: 1180px) {
+    .navbar .logo img{
+        width: 90px;
+        height: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }  
+
+    .section1{
+        width: 75%;
+    }
+
+    .section1 h2{
+        font-size: 3rem;
+    }
+
+    .frase{
+        padding-left: 6rem;
+        padding-right: 6rem;
+        font-size: 1.5rem;
+    }
+
+    #img1{
+        width: 45%;
+    }
+    #img2{
+        width: 45%;
+    }
+    #img3{
+        width: 45%;
+    }
+
+    .icons-footer .linkedin{
+        margin-left: 2rem;
+    }
+
 }
