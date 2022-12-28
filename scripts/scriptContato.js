@@ -136,9 +136,3 @@ mensagem.addEventListener("blur", () => {
         labelMensagem.style.marginTop = "10px";
     }
 })
-
-/* buton.addEventListener("click", () =>{
-    setTimeout(() => {
-        location.reload();
-      }, 3000)
-}) */
