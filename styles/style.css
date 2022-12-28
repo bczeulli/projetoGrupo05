@@ -126,11 +126,26 @@ header{
     margin-bottom: 0.5em;
 }
 
-/*  Responsividade max-width   820-1180 iPad Air
-                              412 - 915 Samsung Galaxy S20 Ultra 412-915
-*/
-
 .footer-bottom{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/*  Responsividade max-width   820-1180 iPad Air
+                              412 - 915 Samsung Galaxy S20 Ultra 412-915
+*/
+
+
+/*Menu de navegacao     ---   820-1180 iPad Air*/
+@media (min-width: 820px) and (max-width: 1180px) {
+    
+    .navbar .logo img{
+        width: 90px;
+        height: 90px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+} 

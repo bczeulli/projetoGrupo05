@@ -130,3 +130,55 @@ h3 {
 }
 
 
+@media (min-width: 820px) and (max-width: 1180px) {
+    
+    .profissional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .profissional-foto {
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    
+    .profissional-descricao {
+        margin: 0;        
+    }
+    
+    .profissional-descricao p {
+    font-size: 1.4rem;
+    }
+    
+    .depoimentos .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row-2-cliente img{
+        width: 140px;
+        height: 140px;
+    }
+    
+    .row-2-cliente {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);   
+    }
+    
+    .row-2-avaliacao p {
+        font-size: 1.4rem;
+    }
+    
+    .row-2-avaliacao h4 {
+        font-size: 1.4rem;
+    }
+
+}
