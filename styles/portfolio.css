@@ -22,7 +22,8 @@ main {
 }
 
 .cards {
- margin-bottom: 4rem;
+    margin-bottom: 4rem;
+
 }
 
 section .cards{
@@ -285,7 +286,7 @@ section .cards{
         height: 100%;
         width: 100%;
     }
-    
+     
     .card-4 {
         width: 625px;
         height: 593px;
@@ -294,11 +295,11 @@ section .cards{
     .card-1-inferior {
         width: 625px;
         height: 593px;
-        margin-top: 1rem;
+        margin-top: 0.3rem;
     }
     
     .card-esquerda {
-        margin-right: 1rem;
+        margin-right: 0.3rem;
     }
     
     .card-superior {
@@ -309,6 +310,11 @@ section .cards{
         width: 100%;
         height: 100%;
     }
+    
+    .card-5-esquerda{
+        margin-bottom: 1.5rem;
+    }
+
 
 }
 
