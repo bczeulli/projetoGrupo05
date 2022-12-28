@@ -131,6 +131,9 @@ header{
 .icons-footer p{
     margin-bottom: 0.5em;
 }
+.icons-footer .linkedin{
+    margin-left: 2rem;
+}
 
 .footer-bottom{
     margin-left: auto;
@@ -165,7 +168,7 @@ header{
 }
 
 .section1 p{
-    text-align: justify;
+    text-align: center;
     font-size: 1.8rem;
     padding: 2rem;
  }
