@@ -140,5 +140,5 @@ mensagem.addEventListener("blur", () => {
 buton.addEventListener("click", () =>{
     setTimeout(() => {
         location.reload();
-      }, 1000)
+      }, 3000)
 })
