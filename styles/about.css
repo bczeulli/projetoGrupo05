@@ -117,8 +117,16 @@ h3 {
     text-align: center;
 }
 
+.rating .fa {
+    color: #363F40;
+}
+
 .row-2-avaliacao h4 {
     margin-top: 10px;
+}
+
+.row-2-avaliacao p {
+    color: #363F40
 }
 
 
