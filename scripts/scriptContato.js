@@ -28,7 +28,7 @@ primeiroNome.addEventListener("blur", () => {
         validacaoPrimeiroNome.innerText = "";
         labelNome.style.color = "white";
         labelNome.style.marginTop = "0px";
-        labelNome.style.color = "#03e9f4";
+        labelNome.style.color = "#fff";
     } else {
         
         validacaoPrimeiroNome.style.color = "white";
@@ -46,7 +46,7 @@ sobrenome.addEventListener("blur", () => {
         validacaoSobrenome.innerText = "";
         labelSobrenome.style.color = "white";
         labelSobrenome.style.marginTop = "0px";
-        labelSobrenome.style.color = "#03e9f4";
+        labelSobrenome.style.color = "#fff";
     } else {
         primeiroNome.style.marginBottom = "20px";
         validacaoSobrenome.style.color = "white";
@@ -64,7 +64,7 @@ email.addEventListener("blur", () => {
         validacaoEmail.innerText = "";
         labelEmail.style.color = "white";
         labelEmail.style.marginTop = "0px";
-        labelEmail.style.color = "#03e9f4";
+        labelEmail.style.color = "#fff";
     } else {
         sobrenome.style.marginBottom = "20px";
         validacaoEmail.style.color = "white";
@@ -88,7 +88,7 @@ celular.addEventListener("blur", () => {
         validacaoCelular.innerText = "";
         labelCelular.style.color = "white";
         labelCelular.style.marginTop = "0px";
-        labelCelular.style.color = "#03e9f4";
+        labelCelular.style.color = "#fff";
     } else {
         email.style.marginBottom = "20px";
         validacaoCelular.style.color = "white";
@@ -108,7 +108,7 @@ cpf.addEventListener("blur", (event) => {
         validacaoCpf.innerText = "";
         labelCpf.style.color = "white";
         labelCpf.style.marginTop = "0px";
-        labelCpf.style.color = "#03e9f4";
+        labelCpf.style.color = "#fff";
     } else {
         email.style.marginBottom = "20px";
         validacaoCpf.style.color = "white";
@@ -126,7 +126,7 @@ mensagem.addEventListener("blur", () => {
         validacaoMensagem.innerText = "";
         labelMensagem.style.color = "white";
         labelMensagem.style.marginTop = "0px";
-        labelMensagem.style.color = "#03e9f4";
+        labelMensagem.style.color = "#fff";
     } else {
         celular.style.marginBottom = "20px";
         validacaoMensagem.style.color = "white";
