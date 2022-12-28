@@ -11,8 +11,25 @@ h1 {
 }
 
 h2 {
-    padding-top: 0.6rem;
-    color: #363F40;   
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    color: #363F40;
+    padding-top: 0.6rem;  
+}
+
+.profissional-foto h2 {
+    font-size: 1.8rem;
+}
+
+.missao {
+    width: 60%;
+}
+
+.missao p {
+    color: #363F40;
+    font-size: 2rem;
+    align-items: center;
 }
 
 
@@ -29,6 +46,20 @@ h2 {
 .profissional-foto { 
     margin-left: 8rem; 
     box-shadow: 0px 16px 15px -9px rgb(0 0 0 / 81%);
+}
+
+.profissional-foto-missao { 
+    margin-left: 8rem; 
+    box-shadow: 0px 16px 15px -9px rgb(0 0 0 / 81%);
+}
+
+.profissional-foto-missao {
+    height: 223px;
+}
+
+#missao p{
+    padding-bottom: 10px ;
+    font-size: 1.3rem   
 }
 
 .profissional-foto {
@@ -61,7 +92,7 @@ h3 {
 
 .depoimentos {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .depoimentos h2 {
@@ -150,9 +181,23 @@ h3 {
     }
     
     .profissional-descricao p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         padding-left: 0px;
        
+    }
+    
+    .profissional-foto-missao {
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    
+    #missao p {
+        font-size: 1.8rem;
+        
+    }
+    
+    .depoimentos {
+        margin-top: 4rem;
     }
     
     .depoimentos .row {
