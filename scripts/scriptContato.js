@@ -4,6 +4,7 @@ const email = document.getElementById("email");
 const cpf = document.getElementById("00NDn00000GaHOj");
 const celular = document.getElementById("mobile");
 const mensagem = document.getElementById("description");
+const buton = document.getElementById("enviar");
 const celularMascara = (value) => {
     if (!value) return "";
     value = value.replace(/\D/g,'');
@@ -134,4 +135,10 @@ mensagem.addEventListener("blur", () => {
         labelMensagem.style.color = "red";
         labelMensagem.style.marginTop = "10px";
     }
+})
+
+buton.addEventListener("click", () =>{
+    setTimeout(() => {
+        location.reload();
+      }, 1000)
 })
